@@ -1,0 +1,49 @@
+@media screen and (max-width: 639px) and (orientation: landscape) {
+    @keyframes kolorTla {
+        0% {
+            background-color: blue;
+        }
+        25% {
+            background-color: green;
+        }
+        100% {
+            background-color: yellow;
+        }
+    }
+    
+    div {
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        animation-name: kolorTla;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@media screen and (max-width: 799px) and (orientation: landscape) {
+    @keyframes kolorTla {
+        0% {
+            background-color: red;
+        }
+        25% {
+            background-color: green;
+        }
+        100% {
+            background-color: darkblue;
+        }
+    }
+    
+    div {
+        width: 150px;
+        height: 150px;
+        background-color: blue;
+        animation-name: kolorTla;
+        animation-duration: 5s;
+        animation-fill-mode: forwards;
+    }
+
+    nav {
+
+    }
+}
